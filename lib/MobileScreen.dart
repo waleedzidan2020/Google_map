@@ -24,89 +24,7 @@ class MobileScreen extends StatelessWidget {
             body: Row(
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
-                // Expanded(
-                //   child: Padding(
-                //     padding: const EdgeInsets.all(30.0),
-                //     child: Column(
-                //       crossAxisAlignment: CrossAxisAlignment.start,
-                //       mainAxisAlignment: MainAxisAlignment.center,
-                //       children: [
-                //         Text(
-                //           "LogIn",
-                //           style: TextStyle(
-                //             fontSize: 30,
-                //           ),
-                //         ),
-                //         SizedBox(
-                //           height: 20,
-                //         ),
-                //         TextFormField(
-                //           decoration: InputDecoration(
-                //             label: Text("emailAdress"),
-                //             border: OutlineInputBorder(
-                //               borderRadius: BorderRadius.circular(12),
-                //             ),
-                //           ),
-                //         ),
-                //         SizedBox(
-                //           height: 20,
-                //         ),
-                //         TextFormField(
-                //           decoration: InputDecoration(
-                //             label: Text("Password"),
-                //             border: OutlineInputBorder(
-                //               borderRadius: BorderRadius.circular(12),
-                //             ),
-                //           ),
-                //         ),
-                //         SizedBox(height: 20,),
-                //         Container(
-                //           width: double.infinity,
-                //           child: Column(
-                //             crossAxisAlignment: CrossAxisAlignment.center,
-                //             children: [
-                //               Container(
-                //                 width: 200,
-                //                 height: 40,
-                //
-                //                 child: MaterialButton(
-                //
-                //                   onPressed: () {},
-                //                   child: Text(
-                //                     "LogIn",
-                //                     style:TextStyle(
-                //                         color: Colors.white
-                //                     ) ,
-                //                   ),
-                //                   color: Colors.teal,
-                //                 ),
-                //               ),
-                //               SizedBox(
-                //                 height: 10,
-                //               ),
-                //               Container(
-                //                 width: 200,
-                //                 height: 40,
-                //                 child: MaterialButton(
-                //
-                //
-                //                   onPressed: () {},
-                //                   child: Text(
-                //                     "Register",
-                //                     style:TextStyle(
-                //                         color: Colors.white
-                //                     ) ,
-                //                   ),
-                //                   color: Colors.blue,
-                //                 ),
-                //               ),
-                //             ],
-                //           ),
-                //         ),
-                //       ],
-                //     ),
-                //   ),
-                // ),
+
                 Expanded(
                   child: Column(
                     children: [
@@ -171,17 +89,10 @@ class MobileScreen extends StatelessWidget {
                                 onPressed: () {},
                                 child: Icon(Icons.search),
                               ),
-
                               Container(
                                 child: IconButton(
-
-                                  onPressed: () {
-
-                                  },
-
-                                  icon: Icon(
-                                      Icons.wallet_giftcard
-                                  ),
+                                  onPressed: () {},
+                                  icon: Icon(Icons.wallet_giftcard),
                                 ),
                               ),
                             ],

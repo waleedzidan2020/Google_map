@@ -172,6 +172,18 @@ class MobileScreen extends StatelessWidget {
                                 child: Icon(Icons.search),
                               ),
 
+                              Container(
+                                child: IconButton(
+
+                                  onPressed: () {
+
+                                  },
+
+                                  icon: Icon(
+                                      Icons.wallet_giftcard
+                                  ),
+                                ),
+                              ),
                             ],
                           ),
                         ),

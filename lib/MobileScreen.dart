@@ -110,7 +110,6 @@ class MobileScreen extends StatelessWidget {
                 Expanded(
                   child: Column(
                     children: [
-
                       Expanded(
                         child: Container(
                           width: double.infinity,
@@ -120,8 +119,6 @@ class MobileScreen extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.center,
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: [
-
-
                               Align(
                                 alignment: AlignmentDirectional.topEnd,
                                 child: IconButton(
@@ -132,7 +129,6 @@ class MobileScreen extends StatelessWidget {
                                   icon: Icon(Icons.exit_to_app),
                                 ),
                               ),
-
                               Container(
                                 child: GoogleMap(
                                   initialCameraPosition: _kGooglePlex,
@@ -170,6 +166,10 @@ class MobileScreen extends StatelessWidget {
                                     elevation: 5,
                                   ),
                                 ),
+                              ),
+                              MaterialButton(
+                                onPressed: () {},
+                                child: Icon(Icons.search),
                               ),
                             ],
                           ),

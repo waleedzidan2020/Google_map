@@ -171,14 +171,7 @@ class MobileScreen extends StatelessWidget {
                                 onPressed: () {},
                                 child: Icon(Icons.search),
                               ),
-                              TextFormField(
-                                onTap: () {},
-                                decoration: InputDecoration(
-                                  label: Text(
-                                    "Email"
-                                  )
-                                ),
-                              )
+
                             ],
                           ),
                         ),
